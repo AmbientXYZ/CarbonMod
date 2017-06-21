@@ -17,6 +17,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+obj/
+bin/BlockImages/
+BlockImages/Archive/
+github/
+
 # =========================
 # Operating System Files
 # =========================
@@ -45,3 +50,28 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.pdb
+bin/Ambient.dll
+bin/MetroFramework.dll
+bin/SharpDX.Direct2D1.dll
+bin/Ambient.Visuals.dll
+bin/NLog.dll
+bin/SharpDX.Direct2D1.xml
+bin/SharpDX.Direct3D11.dll
+bin/SharpDX.dll
+bin/CarbonMod.dll.config
+bin/SharpDX.Mathematics.dll
+bin/NLog.xml
+bin/SharpDX.Direct3D11.xml
+bin/World.xsd
+bin/World.xml
+bin/SharpDX.Mathematics.xml
+bin/SharpDX.DXGI.xml
+bin/SharpDX.xml
+bin/SharpDX.DXGI.dll
+StyleCop.Cache
+bin/Ambient.Visuals.dll.config
+bin/Ambient.dll.config
+bin/VastlandMod.dll
+bin/VastlandMod.dll.config
+packages.config

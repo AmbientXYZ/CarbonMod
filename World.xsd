@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- definition of simple types-->
+  <xs:simpleType name="blockMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Simple" />
+      <xs:enumeration value="ChamferedCorners" />
+      <xs:enumeration value="ChamferedEdges" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="state">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Solid" />
+      <xs:enumeration value="Liquid" />
+      <xs:enumeration value="Gas" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="entityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Standard" />
+      <xs:enumeration value="Cache" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ownerChunkCount">
+    <xs:restriction base="xs:int">
+      <xs:enumeration value="64" />
+      <xs:enumeration value="256" />
+      <xs:enumeration value="1024" />
+      <xs:enumeration value="4096" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="playerChunkCount">
+    <xs:restriction base="xs:int">
+      <xs:enumeration value="1" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="16" />
+      <xs:enumeration value="64" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="latitude">
+    <xs:restriction base="xs:int">
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1024" />
+      <xs:enumeration value="2048" />
+      <xs:enumeration value="3072" />
+      <xs:enumeration value="4096" />
+      <xs:enumeration value="5120" />
+      <xs:enumeration value="6144" />
+      <xs:enumeration value="7168" />
+      <xs:enumeration value="8192" />
+      <xs:enumeration value="9216" />
+      <xs:enumeration value="10240" />
+      <xs:enumeration value="11264" />
+      <xs:enumeration value="12288" />
+      <xs:enumeration value="13312" />
+      <xs:enumeration value="14336" />
+      <xs:enumeration value="15360" />
+      <xs:enumeration value="16384" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="seed">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="livingGrowthYears">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="7" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="livingTrunkThickness">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="id">
+    <xs:restriction base="xs:byte">
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="5" />
+      <xs:enumeration value="6" />
+      <xs:enumeration value="7" />
+      <xs:enumeration value="8" />
+      <xs:enumeration value="9" />
+      <xs:enumeration value="10" />
+      <xs:enumeration value="11" />
+      <xs:enumeration value="12" />
+      <xs:enumeration value="13" />
+      <xs:enumeration value="14" />
+      <xs:enumeration value="15" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="idShort">
+    <xs:restriction base="xs:byte">
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="5" />
+      <xs:enumeration value="6" />
+      <xs:enumeration value="7" />
+      <xs:enumeration value="8" />
+      <xs:enumeration value="9" />
+      <xs:enumeration value="10" />
+      <xs:enumeration value="11" />
+      <xs:enumeration value="12" />
+      <xs:enumeration value="13" />
+      <xs:enumeration value="14" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="nibble">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Min" />
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="5" />
+      <xs:enumeration value="6" />
+      <xs:enumeration value="7" />
+      <xs:enumeration value="8" />
+      <xs:enumeration value="9" />
+      <xs:enumeration value="10" />
+      <xs:enumeration value="11" />
+      <xs:enumeration value="12" />
+      <xs:enumeration value="13" />
+      <xs:enumeration value="14" />
+      <xs:enumeration value="15" />
+      <xs:enumeration value="Max" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="extrudeheight">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value ="1" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="generationMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Radical" />
+      <xs:enumeration value="Extreme2" />
+      <xs:enumeration value="Extreme" />
+      <xs:enumeration value="Rugged" />
+      <xs:enumeration value="Rolling" />
+      <xs:enumeration value="Flat" />
+      <xs:enumeration value="ShangriLa" />
+      <xs:enumeration value="BlankCanvas" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="lifeMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Living" />
+      <xs:enumeration value="Terraform" />
+      <xs:enumeration value="Genesis" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="material">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Aggregate" />
+      <xs:enumeration value="Carbon" />
+      <xs:enumeration value="Stone" />
+      <xs:enumeration value="Metal" />
+      <xs:enumeration value="Steel" />
+      <xs:enumeration value="SteelReinforcedConcrete" />
+      <xs:enumeration value="Plant" />
+      <xs:enumeration value="Wood" />
+      <xs:enumeration value="Other" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="generation">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="VeryCommon" />
+      <xs:enumeration value="Common" />
+      <xs:enumeration value="UnCommon" />
+      <xs:enumeration value="Rare" />
+      <xs:enumeration value="VeryRare" />
+      <xs:enumeration value="Living" />
+      <xs:enumeration value="NotApplicable" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="livingGeneration">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Leaves" />
+      <xs:enumeration value="GroundCover" />
+      <xs:enumeration value="Shrub" />
+      <xs:enumeration value="Tree" />
+      <xs:enumeration value="PlantSpring" />
+      <xs:enumeration value="PlantSummer" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="livingShape">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Pyramidal" />
+      <xs:enumeration value="Round" />
+      <xs:enumeration value="Columnar" />
+      <xs:enumeration value="Weeping" />
+      <xs:enumeration value="Vase" />
+      <xs:enumeration value="Umbrella" />
+      <xs:enumeration value="Palm" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="style">
+    <xs:restriction base="xs:string">
+      <!--try to get rid of air!!!!-->
+      <xs:enumeration value="Air" /> 
+      <xs:enumeration value="Standard" />
+      <xs:enumeration value="Isolated" />
+      <xs:enumeration value="Stair" />
+      <xs:enumeration value="Half" />
+      <xs:enumeration value="Translucent" />
+      <xs:enumeration value="Extrude" />
+      <xs:enumeration value="Null" />
+      <xs:enumeration value="Custom" />
+      <xs:enumeration value="Door" />
+      <xs:enumeration value="Window" />
+      <!--<xs:enumeration value="Living" />-->
+      <!--<xs:enumeration value="Custom" />-->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="textureGenerationMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Never" />
+      <xs:enumeration value="Always" />
+      <xs:enumeration value="IfMissing" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="rgbColor">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-Fa-f]{2}[0-9A-Fa-f]{2}([0-9A-Fa-f]{2})?" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="gameModeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Play" />
+      <xs:enumeration value="Explore" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="achievement">
+    <xs:attribute name="Id" type="xs:unsignedByte" use="required" />
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Description" type="xs:string" use="optional" default="" />
+    <xs:attribute name="Texture" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="texture">
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="GenerationMode" type="textureGenerationMode" use="optional" default="Never" />
+    <xs:attribute name="GenerationRGBColor" type="rgbColor" use="optional" default="FFFFFF" />
+    <xs:attribute name="Base" type="xs:string" use="optional" default="" />
+  </xs:complexType>
+
+  <xs:complexType name="tool">
+    <xs:attribute name="Id" type="id" use="required" />
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Description" type="xs:string" use="optional" default="" />
+    <xs:attribute name="Texture" type="xs:string" use="required" />
+    <xs:attribute name="Materials" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="formula">
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Description" type="xs:string" use="optional" default="" />
+    <xs:attribute name="Machine" type="xs:string" use="required" />
+    <xs:attribute name="ProductionAmount" type="xs:int" use="required" />
+    <xs:attribute name="Source" type="xs:string" use="required" />
+    <xs:attribute name="SourceAmount" type="xs:string" use="required" />
+    <xs:attribute name="Fuel" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <!-- definition of complex types-->
+  <xs:complexType name="block">
+    <xs:attribute name="Id" type="id" use="required" />
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="Description" type="xs:string" use="optional" default="" />
+    <xs:attribute name="Generation" type="generation" use="required" />
+    <xs:attribute name="ExtrudeHeight" type="extrudeheight" default="1.0" />
+    <xs:attribute name="Style" type="style" default="Standard" />
+    <!--<xs:attribute name="Density" type="nibble" default="7" />-->
+    <xs:attribute name="Opacity"  type="nibble" use="optional" default="Max" />
+    <xs:attribute name="Luminance" type="nibble" use="optional" default="Min" />
+    <xs:attribute name="Radiance" type="nibble" use="optional" default="Min" />
+    <xs:attribute name="State" type="state" use="optional" default="Solid" />
+    <xs:attribute name="SaturationGenerate" type="nibble" use="optional" default="Max" />
+    <xs:attribute name="SaturationApply" type="nibble" use="optional" default="14" />
+    <xs:attribute name="Enabled" type="xs:boolean" use="optional" default="true" />
+    <xs:attribute name="SaleMultiplier" type="xs:int" use="optional" default="2" />
+    <xs:attribute name="Material" type="material" use="optional" default="Stone" />
+    <xs:attribute name="Texture" type="xs:string" use="required" />
+    <xs:attribute name="TextureTop" type="xs:string" use="optional" default="" />
+    <xs:attribute name="TextureBottom" type="xs:string" use="optional" default="" />
+    <xs:attribute name="TextureNorth" type="xs:string" use="optional" default="" />
+    <xs:attribute name="TextureSouth" type="xs:string" use="optional" default="" />
+    <xs:attribute name="TextureWest" type="xs:string" use="optional" default="" />
+    <xs:attribute name="TextureEast" type="xs:string" use="optional" default="" />
+    <xs:attribute name="LivingGeneration" type="livingGeneration" use="optional" default="GroundCover" />
+    <xs:attribute name="LivingDormancyTemperature" type="xs:int" use="optional" default="-30" />
+    <xs:attribute name="LivingGrowthTemperature" type="xs:int" use="optional" default="30" />
+    <xs:attribute name="LivingWaterNeed" type="xs:int" use="optional" default="10" />
+    <xs:attribute name="LivingGrowthYears" type="livingGrowthYears" use="optional" default="1" />
+    <xs:attribute name="LivingSpread" type="xs:int" use="optional" default="3" />
+    <xs:attribute name="LivingTrunkThickness" type="livingTrunkThickness" use="optional" default="1" />
+    <xs:attribute name="LivingShape" type="livingShape" use="optional" default ="Round" />
+    <xs:attribute name="LivingLeavesBlock" type="xs:string" use="optional" default ="Leaves" />
+    <xs:attribute name="Formula" type="xs:string" use="optional" default ="" />
+    <xs:attribute name="EntityType" type="entityType" use="optional" default ="Standard" />
+    <xs:attribute name="Flow" type="xs:boolean" use="optional" default ="false" />
+  </xs:complexType>
+
+  <xs:element name="World">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Textures" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Generated" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Texture" type="texture" minOccurs="0" maxOccurs="256">
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="System" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Texture" type="texture" minOccurs="0" maxOccurs="8">
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SeasonalGroundCover" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Texture" type="texture" minOccurs="0" maxOccurs="4">
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SeasonalLeaves" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Texture" type="texture" minOccurs="0" maxOccurs="4">
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Achievements" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Achievement" type="achievement" minOccurs="0" maxOccurs="256">
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:unique name="AcheivementUniqueId">
+            <xs:selector xpath="Achievement" />
+            <xs:field xpath="@Id" />
+          </xs:unique>
+        </xs:element>
+
+
+        <xs:element name="Tools" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tool" type="tool" minOccurs="0" maxOccurs="16">
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:unique name="ToolUniqueId">
+            <xs:selector xpath="Tool" />
+            <xs:field xpath="@Id" />
+          </xs:unique>
+        </xs:element>
+
+        <xs:element name="Formulas" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Formula" type="formula" minOccurs="0" maxOccurs="256">
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:unique name="FormulaUniqueId">
+            <xs:selector xpath="Formula" />
+            <xs:field xpath="@Name" />
+          </xs:unique>
+        </xs:element>
+
+        <xs:element name="Generation" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="BlockClass" minOccurs="3" maxOccurs="15">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Block" type="block" minOccurs="0" maxOccurs="16">
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Name" type="xs:string" use="required" />
+                  <xs:attribute name="Id" type="idShort" use="required" />
+                </xs:complexType>
+                <xs:unique name="BlockUniqueId">
+                  <xs:selector xpath="Block" />
+                  <xs:field xpath="@Id" />
+                </xs:unique>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Name" type="xs:string" use="optional" default="XML World" />
+            <xs:attribute name="GameMode" type="gameModeEnum" use="optional" default="Play" />
+            <xs:attribute name="GenerationMode" type="generationMode" use="optional" default="Rugged" />
+            <xs:attribute name="LifeMode" type="lifeMode" use="optional" default="Living" />
+            <xs:attribute name="GenerationSeed" type="seed" use="optional" default=".4739283232" />
+            <xs:attribute name="HomeLatitude" type="latitude" use="optional" default="11264" />
+            <xs:attribute name="BlockMode" type="blockMode" use="optional" default="ChamferedEdges" />
+            <xs:attribute name="StartDate" type="xs:date" use="optional" default="0001-04-15" />
+            <xs:attribute name="Plugin" type="xs:string" use="optional" default="CarbonMod.dll" />
+            <xs:attribute name="OwnerChunkCount" type="ownerChunkCount" use="optional" default="256" />
+            <xs:attribute name="PlayerChunkCount" type="playerChunkCount" use="optional" default="1" />
+          </xs:complexType>
+          <xs:unique name="BlockClassUniqueId">
+            <xs:selector xpath="BlockClass" />
+            <xs:field xpath="@Id" />
+          </xs:unique>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

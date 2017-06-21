@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<World
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="World.xsd">
+
+  <Textures>
+    <Generated>
+      <Texture Name="Palm.png" GenerationRGBColor="AB9283" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Ceiba.png" GenerationRGBColor="78735F" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="SouthernMagnolia.png" GenerationRGBColor="898884" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Cypress.png" GenerationRGBColor="949492" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Mahogany.png" GenerationRGBColor="746265" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Toog.png" GenerationRGBColor="AA8B6A" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Beech.png" GenerationRGBColor="686152" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Acacia.png" GenerationRGBColor="6D5336" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Breadfruit.png" GenerationRGBColor="BCBBB7" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Lychee.png" GenerationRGBColor="A99385" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="CarmelAlmond.png" GenerationRGBColor="9B9195" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Pencil.png" GenerationRGBColor="A2868B" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Malabar.png" GenerationRGBColor="7C6720" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Poplar.png" GenerationRGBColor="D9BD9D" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Ash.png" GenerationRGBColor="B7969A" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="BrazilNut.png" GenerationRGBColor="766943" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Fig.png" GenerationRGBColor="937B59" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="YellowWalnut.png" GenerationRGBColor="8F7146" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Jambul.png" GenerationRGBColor="906A40" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="BlackWalnut.png" GenerationRGBColor="875D34" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Koompassia.png" GenerationRGBColor="A88F72" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Eucalyptus.png" GenerationRGBColor="9D7841" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Tualang.png" GenerationRGBColor="B3ACA4" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Durian.png" GenerationRGBColor="6D5444" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="JackFruit.png" GenerationRGBColor="B9A59A" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Maple.png" GenerationRGBColor="7F7A77" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Oak.png" GenerationRGBColor="AC9384" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="PlaneTree.png" GenerationRGBColor="A68473" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Elm.png" GenerationRGBColor="939091" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Redwood.png" GenerationRGBColor="A8756B" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="DouglasFir.png" GenerationRGBColor="A8978F" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Fir.png" GenerationRGBColor="99826A" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="PonderosaPine.png" GenerationRGBColor="8E533F" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Birch.png" GenerationRGBColor="EEEFF4" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Alder.png" GenerationRGBColor="9A918C" GenerationMode="Always" Base="BaseTreeHardwood.png" />
+      <Texture Name="Pine.png" GenerationRGBColor="6D5551" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="WoodBeam.png" GenerationRGBColor="E8CBA2" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="SteelBeam.png" GenerationRGBColor="6E6E6E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="BlueSpruce.png" GenerationRGBColor="969797" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Spruce.png" GenerationRGBColor="6C6466" GenerationMode="Always" Base="BaseTree.png" />
+      <Texture Name="Grass0.png" GenerationRGBColor="545E1E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Grass1.png" GenerationRGBColor="555E1E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Grass2.png" GenerationRGBColor="565E1E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Grass3.png" GenerationRGBColor="575E1E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="LeavesBroad0.png" GenerationRGBColor="2B4200" GenerationMode="Always" Base="BaseLeavesBroad0.png" />
+      <Texture Name="LeavesBroad1.png" GenerationRGBColor="426300" GenerationMode="Always" Base="BaseLeavesBroad1.png" />
+      <Texture Name="LeavesBroad2.png" GenerationRGBColor="5A8764" GenerationMode="Always" Base="BaseLeavesBroad2.png" />
+      <Texture Name="LeavesBroad3.png" GenerationRGBColor="788335" GenerationMode="Always" Base="BaseLeavesBroad3.png" />
+      <Texture Name="LeavesNeedle0.png" GenerationRGBColor="44621A" GenerationMode="Always" Base="BaseLeavesNeedle0.png" />
+      <Texture Name="LeavesNeedle1.png" GenerationRGBColor="818C13" GenerationMode="Always" Base="BaseLeavesNeedle1.png" />
+      <Texture Name="LeavesNeedle2.png" GenerationRGBColor="73AA7E" GenerationMode="Always" Base="BaseLeavesNeedle2.png" />
+      <Texture Name="LeavesBlueSpruce.png" GenerationRGBColor="6A899D" GenerationMode="Always" Base="BaseLeavesNeedle2.png" />
+      <Texture Name="LeavesPalm.png" GenerationRGBColor="4B4E0E" GenerationMode="Always" Base="BaseLeavesPalm0.png" />
+      <Texture Name="Saguaro.png" GenerationRGBColor="7C8E75" GenerationMode="Always" Base="BaseNoiseMediumContrast.png" />
+      <Texture Name="GoldenBarrel.png" GenerationRGBColor="9CA26C" GenerationMode="Always" Base="BaseNoiseHighContrast.png" />
+      <Texture Name="EnglishYew.png" GenerationRGBColor="516332" GenerationMode="Always" Base="BaseLeavesNeedle0.png" />
+      <Texture Name="Cordia.png" GenerationRGBColor="79844E" GenerationMode="Always" Base="BaseLeavesNeedle0.png" />
+      <Texture Name="Jojoba.png" GenerationRGBColor="979D52" GenerationMode="Always" Base="BaseLeavesNeedle0.png" />
+      <Texture Name="CandleBush.png" GenerationRGBColor="606D59" GenerationMode="Always" Base="BaseLeavesBroad0.png" />
+      <Texture Name="GoldenDewdrop.png" GenerationRGBColor="548343" GenerationMode="Always" Base="BaseLeavesNeedle1.png" />
+      <Texture Name="Ixora.png" GenerationRGBColor="798A3D" GenerationMode="Always" Base="BaseLeavesNeedle2.png" />
+      <Texture Name="Reserved.png" GenerationRGBColor="0A0A0A" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="RockTBD.png" GenerationRGBColor="A0A0A0" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="OreTBD.png" GenerationRGBColor="A0A0A0" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="GemTBD.png" GenerationRGBColor="A0A0A0" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Bedrock.png" GenerationRGBColor="0A0A0A" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Soil.png" GenerationRGBColor="8F6B5A" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Sand.png" GenerationRGBColor="DBB87E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Gravel.png" GenerationRGBColor="A6988E" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="CoarseGravel.png" GenerationRGBColor="A38772" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Granite.png" GenerationRGBColor="A9AAAB" GenerationMode="Always" Base="BaseNoiseHighContrast.png" />
+      <Texture Name="Basalt.png" GenerationRGBColor="8D8183" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Clay.png" GenerationRGBColor="BBAE9D" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Sandstone.png" GenerationRGBColor="C6A876" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Marble.png" GenerationRGBColor="DDBE9D" GenerationMode="Always" Base="BaseVeined.png" />
+      <Texture Name="Coal.png" GenerationRGBColor="48484D" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Charcoal.png" GenerationRGBColor="58585D" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Limestone.png" GenerationRGBColor="C8B893" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Slate.png" GenerationRGBColor="535C6B" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Flint.png" GenerationRGBColor="88725B" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Phosphorus.png" GenerationRGBColor="50F991" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="AluminumOre.png" GenerationRGBColor="DF755A" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="IronOre.png" GenerationRGBColor="B96030" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="CopperOre.png" GenerationRGBColor="62D0C9" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="SilverOre.png" GenerationRGBColor="839195" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="GoldOre.png" GenerationRGBColor="C7AD47" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="ChromiumOre.png" GenerationRGBColor="A3A7AA" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="ManganeseOre.png" GenerationRGBColor="A7A3AF" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Quartz.png" GenerationRGBColor="B7BECF" GenerationMode="Always" Base="BaseVeined.png" />
+      <Texture Name="Obsidian.png" GenerationRGBColor="383934" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Amber.png" GenerationRGBColor="B23E05" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Carpet.png" GenerationRGBColor="A78B72" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="WoodStove.png" GenerationRGBColor="909090" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="BlastFurnace.png" GenerationRGBColor="A0A0A0" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="Cache.png" GenerationRGBColor="B0B0B0" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="SawMill.png" GenerationRGBColor="C0C0C0" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="CharcoalKiln.png" GenerationRGBColor="D0D0D0" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="Lamp.png" GenerationRGBColor="E0E0E0" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="Oil.png" GenerationRGBColor="101010" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="Concrete.png" GenerationRGBColor="9CA09F" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="Lava.png" GenerationRGBColor="BA3D18" GenerationMode="Always" Base="BaseNoise.png" />
+      <Texture Name="GlacialIce.png" GenerationRGBColor="EDF4FF" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="Ice.png" GenerationRGBColor="F7F7FF" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="Snow.png" GenerationRGBColor="F9FEFF" GenerationMode="Always" Base="BaseNoiseLight.png" />
+      <Texture Name="DoorMetal.png" GenerationRGBColor="6E6E6E" GenerationMode="Always" Base="BaseNoiseLight.png"/>
+      <Texture Name="DoorWood.png" GenerationRGBColor="937F7D" GenerationMode="Always" Base="BaseNoiseLight.png"/>
+      <Texture Name="Highlight.png" GenerationRGBColor="606058" GenerationMode="Always" />
+    </Generated>
+    <System>
+      <Texture Name="ColorBlock0.png" GenerationRGBColor="FFFFFF" GenerationMode="Always" Base="Base.png" />
+      <Texture Name="ColorBlock1.png" GenerationRGBColor="FFFFFF" GenerationMode="Always" Base="Base.png" />
+      <Texture Name="Sky.png" />
+      <Texture Name="Sun.png" />
+      <Texture Name="Cloud.png" />
+    </System>
+    <SeasonalGroundCover>
+      <Texture Name="GrassSeasonal0.png" GenerationRGBColor="FFFFFA" GenerationMode="Always" Base="BaseGrass.png" />
+      <Texture Name="GrassSeasonal1.png" GenerationRGBColor="FFFFF0" GenerationMode="Always" Base="BaseGrass.png" />
+      <Texture Name="GrassSeasonal2.png" GenerationRGBColor="FFFFEA" GenerationMode="Always" Base="BaseGrass.png" />
+      <Texture Name="GrassSeasonal3.png" GenerationRGBColor="FFFFE0" GenerationMode="Always" Base="BaseGrass.png" />
+    </SeasonalGroundCover>
+    <SeasonalLeaves>
+      <Texture Name="LeavesSeasonalBroad0.png" GenerationRGBColor="FFFFFF" GenerationMode="Always" Base="BaseLeavesBroad0.png" />
+      <Texture Name="LeavesSeasonalBroad1.png" GenerationRGBColor="DDDDDD" GenerationMode="Always" Base="BaseLeavesBroad1.png" />
+      <Texture Name="LeavesSeasonalBroad2.png" GenerationRGBColor="BBBBBB" GenerationMode="Always" Base="BaseLeavesBroad2.png" />
+      <Texture Name="LeavesSeasonalBroad3.png" GenerationRGBColor="999999" GenerationMode="Always" Base="BaseLeavesBroad3.png" />
+    </SeasonalLeaves>
+  </Textures>
+
+  <Achievements>
+    <Achievement Id="0" Name="Spawned" Texture="Water.png" />
+  </Achievements>
+
+  <Tools>
+    <Tool Id ="0" Name="Multitool" Texture="Multitool.png" Materials="All" />
+    <Tool Id ="1" Name="Pickaxe" Texture="Pickaxe.png" Materials="Stone" />
+    <Tool Id ="2" Name="Axe" Texture="Axe.png" Materials="Plant,Wood" />
+    <Tool Id ="3" Name="Spade" Texture="Spade.png" Materials="Aggregate,Carbon" />
+  </Tools>
+
+  <Formulas>
+    <Formula Name="HeatedAir" Machine="Wood Stove" ProductionAmount="24" Source="Air" SourceAmount="0" Fuel="Wood" />
+    <Formula Name="SteelBeam0" Machine="Blast Furnace" ProductionAmount="4" Source="Iron Ore,Manganese Ore" SourceAmount="4,1" Fuel="Carbon" />
+    <Formula Name="SteelBeam1" Machine="Blast Furnace" ProductionAmount="4" Source="Iron Ore,Chromium Ore" SourceAmount="4,1" Fuel="Carbon" />
+    <Formula Name="SteelBeam2" Machine="Blast Furnace" ProductionAmount="4" Source="Iron Ore,Coal" SourceAmount="4,1" Fuel="Carbon" />
+    <Formula Name="Charcoal" Machine="Charcoal Kiln" ProductionAmount="1" Source="Wood" SourceAmount="4" Fuel="Wood" />
+    <Formula Name="WoodBeam" Machine="Saw Mill" ProductionAmount="4" Source="Wood" SourceAmount="2" Fuel="Carbon" />
+    <Formula Name="Light" Machine="Lamp" ProductionAmount="4" Source="Air" SourceAmount="0" Fuel="Carbon" />
+  </Formulas>
+
+  <Generation
+          Name ="XML World"
+          GameMode = "Play"
+          GenerationMode="Rugged"
+          LifeMode="Living"
+          GenerationSeed=".4739283232"
+          HomeLatitude="11264"
+          OwnerChunkCount="256"
+          PlayerChunkCount="1"
+          BlockMode="ChamferedEdges"
+          StartDate="0001-04-15"
+          Plugin= ".\bin\CarbonMod.dll">
+    <BlockClass Name="Overlay" Id="0">
+      <Block Id="0" Name="Air" Generation="NotApplicable" Texture="Air.png" Opacity="1" State="Gas" Style="Air" SaturationApply="0" SaturationGenerate="0" Material="Other" SaleMultiplier="0"
+             Formula="HeatedAir,Light" />
+      <Block Id="1" Name="Snow" Generation="NotApplicable" Style="Extrude" Texture="Snow.png" SaturationApply="1" ExtrudeHeight=".2" SaturationGenerate="1" Material="Other" SaleMultiplier="0" />
+      <Block Id="2" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="3" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="4" Name="Grass-A" Generation ="Living" Style="Extrude" Texture="GrassSeasonal0.png" ExtrudeHeight=".1" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="15" LivingGrowthTemperature="30" LivingWaterNeed="10" SaleMultiplier="0" />
+      <Block Id="5" Name="Grass-B" Generation ="Living" Style="Extrude" Texture="GrassSeasonal1.png" ExtrudeHeight=".05" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="10" LivingGrowthTemperature="21" LivingWaterNeed="10" SaleMultiplier="0" />
+      <Block Id="6" Name="Grass-C" Generation ="Living" Style="Extrude" Texture="GrassSeasonal2.png" ExtrudeHeight=".05" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="-5" LivingGrowthTemperature="14" LivingWaterNeed="10" SaleMultiplier="0" />
+      <Block Id="7" Name="Grass-D" Generation ="Living" Style="Extrude" Texture="GrassSeasonal3.png" ExtrudeHeight=".05" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="-20" LivingGrowthTemperature="8" LivingWaterNeed="10" SaleMultiplier="0" />
+      <Block Id="8" Name="Grass-E" Generation ="Living" Style="Extrude" Texture="Grass0.png" ExtrudeHeight=".1" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="30" LivingGrowthTemperature="35" LivingWaterNeed="160" SaleMultiplier="0" />
+      <Block Id="9" Name="Grass-F" Generation ="Living" Style="Extrude" Texture="Grass1.png" ExtrudeHeight=".05" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="28" LivingGrowthTemperature="35" LivingWaterNeed="160" SaleMultiplier="0" />
+      <Block Id="10" Name="Grass-G" Generation ="Living" Style="Extrude" Texture="Grass2.png" ExtrudeHeight=".05" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="26" LivingGrowthTemperature="35" LivingWaterNeed="160" SaleMultiplier="0" />
+      <Block Id="11" Name="Grass-H" Generation ="Living" Style="Extrude" Texture="Grass3.png" ExtrudeHeight=".05" SaturationGenerate="14" Material="Plant"
+             LivingGeneration="GroundCover" LivingDormancyTemperature="24" LivingGrowthTemperature="32" LivingWaterNeed="160" SaleMultiplier="0" />
+      <Block Id="12" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="13" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="14" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="15" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="System" Id="1">
+      <Block Id="0" Name="Water" Generation="NotApplicable" Texture="Water.png" State="Liquid" Flow="true" SaturationApply="11" SaturationGenerate="14"
+             Style="Translucent" Opacity="2" Material="Other" SaleMultiplier="0" />
+      <Block Id="1" Name="Ice" Generation="NotApplicable" Texture="Ice.png" Flow="true" SaturationApply="2" SaturationGenerate="14" Style="Translucent" Opacity="2" Material="Other" SaleMultiplier="0" />
+      <Block Id="2" Name="Glacial Ice" Generation="NotApplicable" Texture="GlacialIce.png" Flow="true" SaturationApply="4" SaturationGenerate="14" Opacity="2" Material="Other" SaleMultiplier="0" />
+      <Block Id="3" Name="Lava" Generation="NotApplicable" Texture="Lava.png" Flow="true" Luminance="2" Radiance="2" SaturationGenerate="14" Opacity="2" Material="Stone" SaleMultiplier="0" />
+      <Block Id="4" Name="Bedrock" Generation="NotApplicable" Texture="Bedrock.png" Material="Stone" SaleMultiplier="0"/>
+      <Block Id="5" Name="Soil" Generation="NotApplicable" Texture="Soil.png" SaturationGenerate="14" Material="Aggregate" />
+      <Block Id="6" Name="Sand" Generation="NotApplicable" Texture="Sand.png" SaturationGenerate="14" Material="Aggregate" SaleMultiplier="0" />
+      <Block Id="7" Name="Gravel" Generation="NotApplicable" Texture="Gravel.png" SaturationGenerate="14" Material="Aggregate" SaleMultiplier="0" />
+      <Block Id="8" Name="Coarse Gravel" Generation="NotApplicable" Texture="CoarseGravel.png" SaturationGenerate="14" Material="Aggregate" SaleMultiplier="0" />
+      <Block Id="9" Name="Carbon Dioxide" Generation="NotApplicable" Texture="Air.png" Opacity="1" State="Gas" Style="Air" SaturationGenerate="7" Material="Other" SaleMultiplier="0" />
+      <Block Id="10" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="11" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="12" Name="Reserved" Generation="NotApplicable" Texture="Reserved.png" Material="Other" SaleMultiplier="0" />
+      <Block Id="13" Name="Select" Generation="NotApplicable" Texture="Select.png" Style="Translucent" Opacity="2" Material="Other" SaleMultiplier="0" />
+      <Block Id="14" Name="Highlight" Generation="NotApplicable" Texture="Highlight.png" Style="Translucent" Opacity="2" Material="Other" SaleMultiplier="0" />
+      <Block Id="15" Name="Null" Generation="NotApplicable" Texture="Null.png"  Style="Translucent" Opacity="2" Material="Other" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="Machines" Id="2">
+      <Block Id="0" Name="Cache" Generation="NotApplicable" Style="Extrude" EntityType="Cache" Texture="Cache.png" ExtrudeHeight =".75" Material="Other" SaturationApply="1" SaleMultiplier="100" />
+      <Block Id="1" Name="Wood Stove" Generation="NotApplicable" Style="Extrude" EntityType="Cache" Texture="WoodStove.png" ExtrudeHeight=".75" Material="Other" SaturationApply="1" Luminance="10" Radiance="10" SaleMultiplier="10" />
+      <Block Id="2" Name="Blast Furnace" Generation="NotApplicable" Style="Extrude" EntityType="Cache" Texture="BlastFurnace.png" ExtrudeHeight =".75" Material="Other" SaturationApply="1" Luminance="14" Radiance="14" SaleMultiplier="100" />
+      <Block Id="3" Name="Charcoal Kiln" Generation="NotApplicable" Style="Extrude" EntityType="Cache" Texture="CharcoalKiln.png" ExtrudeHeight =".75" Material="Other" SaturationApply="1" Luminance="14" Radiance="14" SaleMultiplier="100" />
+      <Block Id="4" Name="Saw Mill" Generation="NotApplicable" Style="Extrude" EntityType="Cache" Texture="SawMill.png" ExtrudeHeight =".75" Material="Other" SaturationApply="1" SaleMultiplier="100" />
+      <Block Id="5" Name="Lamp" Generation="NotApplicable" Style="Extrude" EntityType="Cache" Texture="Lamp.png" ExtrudeHeight =".75" Material="Other" SaturationApply="1" Luminance="14" />
+    </BlockClass>
+    <BlockClass Name="Manufactured" Id="3">
+      <Block Id="0" Name="Steel Reinforced Concrete-Experimental!" Generation="NotApplicable" Style="Isolated" Texture="Concrete.png" Material="SteelReinforcedConcrete" SaturationApply="14"/>
+      <Block Id="1" Name="Carpet" Generation="NotApplicable" Style="Extrude" Texture="Carpet.png" ExtrudeHeight=".05" Material="Other" SaturationApply="15"/>
+      <Block Id="2" Name="Half Block" Generation="NotApplicable" Style="Half" Texture="Carpet.png" Material="Other" SaturationApply="15"/>
+      <Block Id="3" Name="Wood Door" Generation="NotApplicable" Style ="Door" Texture="DoorWood.png" Material="Wood" SaturationApply="1" />
+      <Block Id="4" Name="Metal Door" Generation="NotApplicable" Style ="Door" Texture="DoorMetal.png" Material="Metal" SaturationApply="1" />
+      <Block Id="5" Name="Security Door" Generation="NotApplicable" Style ="Door" Texture="Door.png" Material="Steel" SaturationApply="1" />
+      <Block Id="6" Name="Steel Beam" Generation="NotApplicable" Style ="Standard" Texture="SteelBeam.png" Material="Steel" SaturationApply="15"
+             Formula="SteelBeam0,SteelBeam1,SteelBeam2" />
+      <Block Id="7" Name="Window" Generation="NotApplicable" Style ="Window" Texture="Window.png" Material="Other" SaturationApply="15" Opacity="2" />
+      <Block Id="8" Name="Charcoal" Generation="NotApplicable" Texture="Charcoal.png" Material="Carbon"
+             Formula="Charcoal" />
+    </BlockClass>
+    <BlockClass Name="Wood" Id="4">
+      <Block Id="0" Name="Wood Beam" Generation="NotApplicable" Texture="WoodBeam.png" Material="Other" SaturationApply="15"
+              Formula="WoodBeam" />
+    </BlockClass>
+    <BlockClass Name="Stairs" Id ="5">
+      <Block Id ="0" Name="Granite Stairs - Experimental (Don't always work)" Generation="NotApplicable" Texture="Granite.png" Style="Stair" SaturationApply="15"/>
+    </BlockClass>
+    <BlockClass Name="Rock/Carbon" Id="6">
+      <Block Id="0" Name="Granite" Generation="VeryCommon" Texture="Granite.png" SaleMultiplier="0" />
+      <Block Id="1" Name="Basalt" Generation="Common" Texture="Basalt.png" SaleMultiplier="0" />
+      <Block Id="2" Name="Sandstone" Generation="UnCommon" Texture="Sandstone.png" SaleMultiplier="0" />
+      <Block Id="3" Name="Clay" Generation="UnCommon" Texture="Clay.png" SaleMultiplier="0" />
+      <Block Id="4" Name="Limestone" Generation="UnCommon" Texture="Limestone.png" SaleMultiplier="1" />
+      <Block Id="5" Name="Slate" Generation="UnCommon" Texture="Slate.png" SaleMultiplier="0" />
+      <Block Id="6" Name="Flint" Generation="UnCommon" Texture="Flint.png" SaleMultiplier="0" />
+      <Block Id="7" Name="Marble" Generation="UnCommon" Texture="Marble.png" SaleMultiplier="0" />
+      <Block Id="8" Name="Phosphorus" Generation="UnCommon" Texture="Phosphorus.png" Luminance="7" SaleMultiplier="0" />
+      <Block Id="9" Name="Coal" Generation="UnCommon" Texture="Coal.png" Material="Carbon" SaleMultiplier="1" />
+      <Block Id="10" Name="Oil" Generation="UnCommon" Texture="Oil.png" Material="Carbon" Flow="true" SaleMultiplier="1" />
+      <Block Id="11" Name="Rock-TBD" Generation="Rare" Texture="RockTBD.png" SaleMultiplier="0" />
+      <Block Id="12" Name="Rock-TBD" Generation="Rare" Texture="RockTBD.png" SaleMultiplier="0" />
+      <Block Id="13" Name="Rock-TBD" Generation="VeryRare" Texture="RockTBD.png" SaleMultiplier="0" />
+      <Block Id="14" Name="Rock-TBD" Generation="VeryRare" Texture="RockTBD.png" SaleMultiplier="0" />
+      <Block Id="15" Name="Rock-TBD" Generation="VeryRare" Texture="RockTBD.png" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="Ore" Id="7">
+      <Block Id="0" Name="Aluminum Ore" Generation="UnCommon" Texture="AluminumOre.png" SaleMultiplier="0" />
+      <Block Id="1" Name="Iron Ore" Generation="UnCommon" Texture="IronOre.png" SaleMultiplier="1" />
+      <Block Id="2" Name="Copper Ore" Generation="UnCommon" Texture="CopperOre.png" SaleMultiplier="0" />
+      <Block Id="3" Name="Manganese Ore" Generation="UnCommon" Texture="ManganeseOre.png" SaleMultiplier="1" />
+      <Block Id="4" Name="Silver Ore" Generation="Rare" Texture="SilverOre.png" SaleMultiplier="0" />
+      <Block Id="5" Name="Gold Ore" Generation="Rare" Texture="GoldOre.png" SaleMultiplier="0" />
+      <Block Id="6" Name="Chromium Ore" Generation="Rare" Texture="ChromiumOre.png" SaleMultiplier="1" />
+      <Block Id="7" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="8" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="9" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="10" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="11" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="12" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="13" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="14" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+      <Block Id="15" Name="Ore-TBD" Generation="VeryRare" Texture="OreTBD.png" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="Gems" Id="8">
+      <Block Id="0" Name="Quartz" Generation="UnCommon" Texture="Quartz.png" SaleMultiplier="0" />
+      <Block Id="1" Name="Obsidian" Generation="UnCommon" Texture="Obsidian.png" SaleMultiplier="0" />
+      <Block Id="2" Name="Amber" Generation="UnCommon" Texture="Amber.png" SaleMultiplier="0" />
+      <Block Id="3" Name="Gem-TBD" Generation="Rare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="4" Name="Gem-TBD" Generation="Rare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="5" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="6" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="7" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="8" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="9" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="10" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="11" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="12" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="13" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="14" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+      <Block Id="15" Name="Gem-TBD" Generation="VeryRare" Texture="GemTBD.png" SaleMultiplier="0" />
+    </BlockClass>
+    <!--Dominant trees should exist from the equator to 15,000 north at every 1000m, at a LivingWateNeed of 40 to ensure good tree coverage
+
+        Sea Level: Position/Ideal LivingDormancyTemperature/Ideal LivingGrowthTemperature
+        0/34/34
+        1000/31/34
+        2000/28/34
+        3000/25/34
+        4000/22/34
+        5000/18/33
+        6000/15/33
+        7000/11/32
+        8000/7/31
+        9000/3/30
+        10000/0/29
+        11000/-5/28
+        12000/-9/27
+        13000/-13/26
+        14000/-17/25
+        15000/-22/23
+        
+        Sea Level * 2:  Position/Ideal LivingDormancyTemperature/Ideal LivingGrowthTemperature
+        0/33/33
+        1000/30/33
+        2000/27/33
+        3000/23/32
+        4000/20/32
+        5000/17/32
+        6000/13/31
+        7000/9/30
+        8000/6/30
+        9000/2/29
+        10000/-2/28
+        11000/-6/27
+        12000/-10/26
+        13000/-15/24
+        14000/-19/23
+        15000/-23/22
+        
+        Sea Level * 2:  Position/Ideal LivingDormancyTemperature/Ideal LivingGrowthTemperature
+        500/31/33
+        1500/28/33
+        2500/25/33
+        3500/22/32
+        4500/18/32
+        5500/15/31
+        6500/11/31
+        7500/8/30
+        8500/4/29
+        9500/0/28
+        10500/-4/27
+        11500/-8/26
+        12500/-12/25
+        13500/-17/24
+        14500/-21/22
+        15500/-26/21
+        
+        Sea Level * 2.5:  Position/Ideal LivingDormancyTemperature/Ideal LivingGrowthTemperature
+        500/29/31
+        1500/26/31
+        2500/23/30
+        3500/20/30
+        4500/16/30
+        5500/13/29
+        6500/9/29
+        7500/6/28
+        8500/2/27
+        9500/-2/26
+        10500/-6/25
+        11500/-10/24
+        12500/-14/23
+        13500/-19/22
+        14500/-23/20
+        15500/-28/19
+        
+        Sea Level * 3:  Position/Ideal LivingDormancyTemperature/Ideal LivingGrowthTemperature
+        500/26/28
+        1500/23/28
+        2500/20/28
+        3500/17/27
+        4500/13/27
+        5500/10/26
+        6500/6/26
+        7500/3/25
+        8500/-1/24
+        9500/-5/23
+        10500/-9/22
+        11500/-13/21
+        12500/-17/20
+        13500/-22/19
+        14500/-26/17
+        15500/-31/16
+
+
+    -->
+    <BlockClass Name="TreesDominant" Id="9">
+      <Block Id="0" Name="Ceiba" Generation ="Living" Texture="Ceiba.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="34" LivingGrowthTemperature="34" LivingWaterNeed="50" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad0" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="1" Name="Brazil Nut" Generation ="Living" Texture="BrazilNut.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="31" LivingGrowthTemperature="34" LivingWaterNeed="50" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad1" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="2" Name="Fig" Generation ="Living" Texture="Fig.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="28" LivingGrowthTemperature="34" LivingWaterNeed="50" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad2" LivingShape="Weeping" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="3" Name="Eucalyptus" Generation ="Living" Texture="Eucalyptus.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="25" LivingGrowthTemperature="34" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad3" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="4" Name="Mahogany" Generation ="Living" Texture="Mahogany.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="22" LivingGrowthTemperature="34" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad0" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="5" Name="Jambul" Generation ="Living" Texture="Jambul.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="18" LivingGrowthTemperature="33" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad1" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="6" Name="Koompassia" Generation ="Living" Texture="Koompassia.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="15" LivingGrowthTemperature="33" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad2" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="7" Name="Tualang" Generation ="Living" Texture="Tualang.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="11" LivingGrowthTemperature="32" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad3" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="8" Name="Toog" Generation ="Living" Texture="Toog.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="7" LivingGrowthTemperature="31" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad0" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="9" Name="Southern Magnolia" Generation ="Living" Texture="SouthernMagnolia.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="3" LivingGrowthTemperature="30" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad1" SaleMultiplier="0" />
+      <Block Id="10" Name="Beech" Generation ="Living" Texture="Beech.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="0" LivingGrowthTemperature="29" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesSeasonalBroad0" SaleMultiplier="0" />
+      <Block Id="11" Name="Maple" Generation ="Living" Texture="Maple.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-5" LivingGrowthTemperature="28" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesSeasonalBroad1" SaleMultiplier="0" />
+      <Block Id="12" Name="Ash" Generation ="Living" Texture="Ash.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-9" LivingGrowthTemperature="27" LivingWaterNeed="40" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesSeasonalBroad2" SaleMultiplier="0" />
+      <Block Id="13" Name="Poplar" Generation ="Living" Texture="Poplar.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-13" LivingGrowthTemperature="26" LivingWaterNeed="40" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesSeasonalBroad3" SaleMultiplier="0" />
+      <Block Id="14" Name="Alder" Generation ="Living" Texture="Alder.png" Material="Wood"  SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-17" LivingGrowthTemperature="25" LivingWaterNeed="40" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesSeasonalBroad0" SaleMultiplier="0" />
+      <Block Id="15" Name="Birch" Generation ="Living" Texture="Birch.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-22" LivingGrowthTemperature="23" LivingWaterNeed="40" LivingGrowthYears="5"
+             LivingLeavesBlock="LeavesSeasonalBroad1" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="TreesAltitude48Water60" Id="10">
+      <Block Id="0" Name="Durian" Generation ="Living" Texture="Durian.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="26" LivingGrowthTemperature="28" LivingWaterNeed="70" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad2" SaleMultiplier="0" />
+      <Block Id="1" Name="Malabar Almond" Generation ="Living" Texture="Malabar.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="23" LivingGrowthTemperature="28" LivingWaterNeed="70" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad3" LivingShape="Vase" SaleMultiplier="0" />
+      <Block Id="2" Name="Breadfruit" Generation ="Living" Texture="Breadfruit.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="20" LivingGrowthTemperature="28" LivingWaterNeed="70" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad0" SaleMultiplier="0" />
+      <Block Id="3" Name="Lychee" Generation ="Living" Texture="Lychee.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="17" LivingGrowthTemperature="27" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad1" SaleMultiplier="0" />
+      <Block Id="4" Name="Yellow Walnut" Generation ="Living" Texture="YellowWalnut.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="13" LivingGrowthTemperature="27" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad2" SaleMultiplier="0" />
+      <Block Id="5" Name="Jack Fruit" Generation ="Living" Texture="JackFruit.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="10" LivingGrowthTemperature="26" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad3" SaleMultiplier="0" />
+      <Block Id="6" Name="Carmel Almond" Generation ="Living" Texture="CarmelAlmond.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="6" LivingGrowthTemperature="26" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad0" LivingShape="Vase" SaleMultiplier="0" />
+      <Block Id="7" Name="Cypress" Generation ="Living" Texture="Cypress.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="3" LivingGrowthTemperature="25" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesNeedle1" SaleMultiplier="0" />
+      <Block Id="8" Name="Oak" Generation ="Living" Texture="Oak.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-1" LivingGrowthTemperature="24" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesSeasonalBroad1" SaleMultiplier="1" />
+      <Block Id="9" Name="Black Walnut" Generation ="Living" Texture="BlackWalnut.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-5" LivingGrowthTemperature="23" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesBroad1" SaleMultiplier="0" />
+      <Block Id="10" Name="Plane Tree" Generation ="Living" Texture="PlaneTree.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-9" LivingGrowthTemperature="22" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesSeasonalBroad3" SaleMultiplier="0" />
+      <Block Id="11" Name="American Elm" Generation ="Living" Texture="Elm.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-13" LivingGrowthTemperature="21" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesSeasonalBroad2" LivingShape="Vase" SaleMultiplier="0" />
+      <Block Id="12" Name="Spruce" Generation ="Living" Texture="Spruce.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-17" LivingGrowthTemperature="20" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesNeedle1" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="13" Name="Fir" Generation ="Living" Texture="Fir.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-22" LivingGrowthTemperature="19" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesNeedle0" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="14" Name="White Pine" Generation ="Living" Texture="Pine.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-26" LivingGrowthTemperature="17" LivingWaterNeed="60" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesNeedle2" LivingShape="Pyramidal" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="TreesSpecialty" Id="11">
+      <Block Id="0" Name="Acacia" Generation ="Living" Texture="Acacia.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="34" LivingGrowthTemperature="34" LivingWaterNeed="15" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesBroad3Umbrella" LivingShape="Umbrella" SaleMultiplier="0" />
+      <Block Id="1" Name="Elaeis Palm" Generation ="Living" Texture="Palm.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="34" LivingGrowthTemperature="34" LivingWaterNeed="25" LivingGrowthYears="6"
+             LivingLeavesBlock="LeavesPalm" LivingShape="Palm" SaleMultiplier="0" />
+      <Block Id="3" Name="Pencil Cypress" Generation ="Living" Texture="Pencil.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="22" LivingGrowthTemperature="32" LivingWaterNeed="30" LivingGrowthYears="3"
+             LivingLeavesBlock="LeavesNeedle1" LivingShape="Columnar" SaleMultiplier="0" />
+      <Block Id="9" Name="Redwood" Generation ="Living" Texture="Redwood.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-5" LivingGrowthTemperature="28" LivingWaterNeed="70" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesNeedle0" LivingShape="Pyramidal" LivingTrunkThickness="2" SaleMultiplier="0" />
+      <Block Id="10" Name="Ponderosa Pine" Generation ="Living" Texture="PonderosaPine.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-8" LivingGrowthTemperature="26" LivingWaterNeed="30" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesNeedle2" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="11" Name="Douglas-Fir" Generation ="Living" Texture="DouglasFir.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-8" LivingGrowthTemperature="26" LivingWaterNeed="40" LivingGrowthYears="7"
+             LivingLeavesBlock="LeavesNeedle1" LivingShape="Pyramidal" LivingTrunkThickness="2" SaleMultiplier="1" />
+      <Block Id="15" Name="Blue Spruce" Generation ="Living" Texture="BlueSpruce.png" Material="Wood" SaturationApply="15"
+             LivingGeneration="Tree" LivingDormancyTemperature="-14" LivingGrowthTemperature="20" LivingWaterNeed="60" LivingGrowthYears="5"
+             LivingLeavesBlock="LeavesBlueSpruce" LivingShape="Pyramidal" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="ShrubsAndPlants" Id="12">
+      <Block Id="0" Name="Bayberry" Generation ="Living" Texture="LeavesSeasonalBroad0.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="-20" LivingGrowthTemperature="20" LivingWaterNeed="10" LivingSpread="1" SaleMultiplier="0" />
+      <Block Id="1" Name="Juniper" Generation ="Living" Texture="LeavesNeedle0.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="-20" LivingGrowthTemperature="15" LivingWaterNeed="40" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="2" Name="Labrador Tea" Generation ="Living" Texture="LeavesSeasonalBroad2.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="-10" LivingGrowthTemperature="24" LivingWaterNeed="20" LivingSpread="1" SaleMultiplier="0" />
+      <Block Id="3" Name="Lingonberry" Generation ="Living" Texture="LeavesSeasonalBroad3.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="0" LivingGrowthTemperature="26" LivingWaterNeed="20" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="4" Name="Willow" Generation ="Living" Texture="LeavesBroad0.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="-20" LivingGrowthTemperature="25" LivingWaterNeed="20" LivingSpread="1" SaleMultiplier="0" />
+      <Block Id="5" Name="Yew" Generation ="Living" Texture="LeavesBroad1.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="12" LivingGrowthTemperature="28" LivingWaterNeed="30" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="6" Name="Crowberry" Generation ="Living" Texture="LeavesBroad2.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="0" LivingGrowthTemperature="26" LivingWaterNeed="20" LivingSpread="1" SaleMultiplier="0" />
+      <Block Id="7" Name="Bearberry" Generation ="Living" Texture="LeavesBroad3.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="-10" LivingGrowthTemperature="24" LivingWaterNeed="40" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="8" Name="English Yew" Generation ="Living" Texture="EnglishYew.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="14" LivingGrowthTemperature="29" LivingWaterNeed="40" LivingSpread="0" LivingGrowthYears="1" SaleMultiplier="0" />
+      <Block Id="9" Name="Saguaro Cactus" Generation ="Living" Texture="Saguaro.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="30" LivingGrowthTemperature="35" LivingWaterNeed="0" LivingSpread="0" LivingGrowthYears="1" SaleMultiplier="0" />
+      <Block Id="10" Name="Golden Barrel Cactus" Generation ="Living" Texture="GoldenBarrel.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="30" LivingGrowthTemperature="35" LivingWaterNeed="0" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="11" Name="Cordia" Generation ="Living" Texture="Cordia.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="10" LivingGrowthTemperature="28" LivingWaterNeed="10" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="12" Name="Jojoba" Generation ="Living" Texture="Jojoba.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="17" LivingGrowthTemperature="23" LivingWaterNeed="20" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="13" Name="Candle Bush" Generation ="Living" Texture="CandleBush.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="22" LivingGrowthTemperature="30" LivingWaterNeed="50" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="14" Name="Golden Dewdrop" Generation ="Living" Texture="GoldenDewdrop.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="3" LivingGrowthTemperature="26" LivingWaterNeed="30" LivingSpread="0" SaleMultiplier="0" />
+      <Block Id="15" Name="Ixora" Generation ="Living" Texture="Ixora.png" Style="Isolated" Material="Wood"
+             LivingGeneration="Shrub" LivingDormancyTemperature="25" LivingGrowthTemperature="32" LivingWaterNeed="20" LivingSpread="0" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="Leaves0" Id="13">
+      <Block Id="0" Name="LeavesBroad0" Generation="Living" Texture="LeavesBroad0.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="1" Name="LeavesBroad1" Generation="Living" Texture="LeavesBroad1.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="2" Name="LeavesBroad2" Generation="Living" Texture="LeavesBroad2.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="3" Name="LeavesBroad3" Generation="Living" Texture="LeavesBroad3.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="4" Name="LeavesBroad0Umbrella" Generation="Living" Texture="LeavesBroad0.png" Style="Isolated" Opacity="1" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Umbrella" SaleMultiplier="0" />
+      <Block Id="5" Name="LeavesBroad1Umbrella" Generation="Living" Texture="LeavesBroad1.png" Style="Isolated" Opacity="1" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Umbrella" SaleMultiplier="0" />
+      <Block Id="6" Name="LeavesBroad2Umbrella" Generation="Living" Texture="LeavesBroad2.png" Style="Isolated" Opacity="1" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Umbrella" SaleMultiplier="0" />
+      <Block Id="7" Name="LeavesBroad3Umbrella" Generation="Living" Texture="LeavesBroad3.png" Style="Isolated" Opacity="1" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Umbrella" SaleMultiplier="0" />
+    </BlockClass>
+    <BlockClass Name="Leaves1" Id="14">
+      <Block Id="0" Name="LeavesSeasonalBroad0" Generation="Living" Texture="LeavesSeasonalBroad0.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="1" Name="LeavesSeasonalBroad1" Generation="Living" Texture="LeavesSeasonalBroad1.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="2" Name="LeavesSeasonalBroad2" Generation="Living" Texture="LeavesSeasonalBroad2.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="3" Name="LeavesSeasonalBroad3" Generation="Living" Texture="LeavesSeasonalBroad3.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Round" SaleMultiplier="0" />
+      <Block Id="4" Name="LeavesNeedle0" Generation="Living" Texture="LeavesNeedle0.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="5" Name="LeavesNeedle1" Generation="Living" Texture="LeavesNeedle1.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="6" Name="LeavesNeedle2" Generation="Living" Texture="LeavesNeedle2.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="7" Name="LeavesBlueSpruce" Generation="Living" Texture="LeavesBlueSpruce.png" Style="Isolated" Opacity="2" Material="Plant"
+             LivingGeneration="Leaves" LivingShape="Pyramidal" SaleMultiplier="0" />
+      <Block Id="8" Name="LeavesPalm" Generation="Living" Texture="LeavesPalm.png" Style="Isolated" Opacity="2" Material="Plant"
+            LivingGeneration="Leaves" LivingShape="Palm" SaleMultiplier="0" />
+    </BlockClass>
+  </Generation>
+</World>
